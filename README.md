@@ -1,22 +1,32 @@
 # NumPy & Pandas Foundations
 
-Daily practice and notebooks for learning NumPy and Pandas, part of a structured science sprint.
+Daily practice and notebooks for learning NumPy and Pandas, part of a structured 50-day data science sprint.
 
 ## Progress
 
-### NumPy (CWH Section 5)
+### NumPy Complete ✅
 - [x] Why use NumPy (cache locality, memory layout, vectorization)
 - [x] Creating NumPy Arrays
 - [x] Indexing and Slicing
-- [ ] Multidimensional Indexing and Axis
-- [ ] Data Types in NumPy
-- [ ] Broadcasting in NumPy
-- [ ] Built-in Mathematical Functions
+- [x] Multidimensional Indexing and Axis
+- [x] Data Types in NumPy
+- [x] Broadcasting in NumPy
+- [x] Built-in Mathematical Functions
+
+### Pandas -Not started yet
+- [ ] Part 1: DataFrames, .loc/.iloc, filtering, groupby, value_counts
+- [ ] Part 2: merging, pivot, apply, missing data
 
 ## Notebooks
+- `Numpy vs Python.ipynb` — speed/memory comparison, cache locality demo
 - `Creating_numpy_arrays.ipynb` — array creation methods (`np.array`, `zeros`, `ones`, `full`, `eye`, `arange`, `linspace`), shape/size/dtype, reshaping & flattening
 - `Indexing & slicing.ipynb` — basic indexing, slicing, views vs copies, fancy indexing, boolean masking
+- `Multidimensional indexing.ipynb` — axis operations, 2D/3D indexing and slicing
+- `Numpy Data Types.ipynb` — dtype conversion, upcasting/downcasting, complex numbers
+- `Broadcasting.ipynb` — broadcasting rules, vectorized stats, normalization
 - `Basic questions.ipynb` — self-solved practice problems applying the above concepts
 
 ## Notes
-Slicing returns a *view*, not a copy — `arr` and a slice `b = arr[...]` share the same underlying memory.
+- Slicing returns a *view*, not a copy — `arr` and a slice `b = arr[...]` share the same underlying memory.
+- Broadcasting rule: shapes are compared from the right; dimensions must be equal or one of them must be 1.
+- Axis position matches `.shape` index — `axis=0` collapses rows (`.shape[0]`), `axis=1` collapses columns (`.shape[1]`).
