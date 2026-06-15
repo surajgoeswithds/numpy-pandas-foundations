@@ -13,8 +13,8 @@ Daily practice and notebooks for learning NumPy and Pandas, part of a structured
 - [x] Broadcasting in NumPy
 - [x] Built-in Mathematical Functions
 
-### Pandas -Not started yet
-- [ ] Part 1: DataFrames, .loc/.iloc, filtering, groupby, value_counts
+### Pandas (CWH Section 6) — In progress
+- [ ] Part 1: DataFrames, .loc/.iloc, filtering, groupby, value_counts (started)
 - [ ] Part 2: merging, pivot, apply, missing data
 
 ## Notebooks
@@ -25,8 +25,10 @@ Daily practice and notebooks for learning NumPy and Pandas, part of a structured
 - `Numpy Data Types.ipynb` — dtype conversion, upcasting/downcasting, complex numbers
 - `Broadcasting.ipynb` — broadcasting rules, vectorized stats, normalization
 - `Basic questions.ipynb` — self-solved practice problems applying the above concepts
+- `Getting Started with Pandas.ipynb` — Series, DataFrame creation, index/columns
+- `Creating DataFrames.ipynb` — in progress
 
 ## Notes
 - Slicing returns a *view*, not a copy — `arr` and a slice `b = arr[...]` share the same underlying memory.
 - Broadcasting rule: shapes are compared from the right; dimensions must be equal or one of them must be 1.
-- Axis position matches `.shape` index — `axis=0` collapses rows (`.shape[0]`), `axis=1` collapses columns (`.shape[1]`).
+- Axis position matches `.shape` index — `axis=0` collapses rows (`.shape[0]`), `axis=1` collapses columns (`.shape[1]`).git add .
