@@ -13,11 +13,11 @@ Daily practice and notebooks for learning NumPy and Pandas, part of a structured
 - [x] Broadcasting in NumPy
 - [x] Built-in Mathematical Functions
 
-### Pandas (CWH Section 6) — In progress (3/10 lectures)
+### Pandas (CWH Section 6) — In progress (4/10 lectures)
 - [x] Getting Started with Pandas
 - [x] Core Data Structures in Pandas
 - [x] Creating DataFrames
-- [ ] Data Selection & Filtering
+- [x] Data Selection & Filtering
 - [ ] Data Cleaning & Preprocessing
 - [ ] Data Transformation
 - [ ] Melt and Pivot
@@ -35,8 +35,10 @@ Daily practice and notebooks for learning NumPy and Pandas, part of a structured
 - `Basic questions.ipynb` — self-solved practice problems applying the above concepts
 - `Getting Started with Pandas.ipynb` — Series, DataFrame creation, index/columns
 - `Creating DataFrames.ipynb` — DataFrame from list/dict/NumPy array, reading Excel/CSV/URL data, EDA basics (`head`, `tail`, `info`, `describe`, `columns`, `shape`)
+- `Data Selection & Filtering.ipynb` — `.loc`/`.iloc`/`.at`/`.iat`, boolean masking, `.query()` with chained/multi-conditions, copy vs view in filtering
 
 ## Notes
 - Slicing returns a *view*, not a copy — `arr` and a slice `b = arr[...]` share the same underlying memory.
 - Broadcasting rule: shapes are compared from the right; dimensions must be equal or one of them must be 1.
 - Axis position matches `.shape` index — `axis=0` collapses rows (`.shape[0]`), `axis=1` collapses columns (`.shape[1]`).
+- `.query()` returns a copy, not a view — filtered results are a new DataFrame; changes don't affect the original unless reassigned.
