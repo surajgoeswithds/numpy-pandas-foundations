@@ -13,12 +13,12 @@ Daily practice and notebooks for learning NumPy and Pandas, part of a structured
 - [x] Broadcasting in NumPy
 - [x] Built-in Mathematical Functions
 
-### Pandas (CWH Section 6) — In progress (4/10 lectures)
+### Pandas 
 - [x] Getting Started with Pandas
 - [x] Core Data Structures in Pandas
 - [x] Creating DataFrames
 - [x] Data Selection & Filtering
-- [ ] Data Cleaning & Preprocessing
+- [x] Data Cleaning & Preprocessing
 - [ ] Data Transformation
 - [ ] Melt and Pivot
 - [ ] Aggregation & Grouping
@@ -36,6 +36,7 @@ Daily practice and notebooks for learning NumPy and Pandas, part of a structured
 - `Getting Started with Pandas.ipynb` — Series, DataFrame creation, index/columns
 - `Creating DataFrames.ipynb` — DataFrame from list/dict/NumPy array, reading Excel/CSV/URL data, EDA basics (`head`, `tail`, `info`, `describe`, `columns`, `shape`)
 - `Data Selection & Filtering.ipynb` — `.loc`/`.iloc`/`.at`/`.iat`, boolean masking, `.query()` with chained/multi-conditions, copy vs view in filtering
+- `Data Cleaning & Preprocessing.ipynb` — missing data (`isnull`, `dropna`, `fillna`, `ffill`/`bfill`), duplicates (`duplicated`, `drop_duplicates`, subset-based), `.str` methods, dtype fixing (`astype`), `.apply()`/`.map()`/`.replace()` for transformations
 
 ## Notes
 - Slicing returns a *view*, not a copy — `arr` and a slice `b = arr[...]` share the same underlying memory.
