@@ -27,7 +27,7 @@ Daily practice and notebooks for learning NumPy and Pandas, part of a structured
 
 ### Kaggle Pandas Micro-course — In progress (1/6 exercises)
 - [x] Exercise 1: Creating, Reading and Writing
-- [ ] Exercise 2: Indexing, Selecting & Assigning
+- [x] Exercise 2: Indexing, Selecting & Assigning
 - [ ] Exercise 3: Summary Functions and Maps
 - [ ] Exercise 4: Grouping and Sorting
 - [ ] Exercise 5: Data Types and Missing Values
@@ -46,6 +46,7 @@ Daily practice and notebooks for learning NumPy and Pandas, part of a structured
 - `Data Selection & Filtering.ipynb` — `.loc`/`.iloc`/`.at`/`.iat`, boolean masking, `.query()` with chained/multi-conditions, copy vs view in filtering
 - `Data Cleaning & Preprocessing.ipynb` — missing data (`isnull`, `dropna`, `fillna`, `ffill`/`bfill`), duplicates (`duplicated`, `drop_duplicates`, subset-based), `.str` methods, dtype fixing (`astype`), `.apply()`/`.map()`/`.replace()` for transformations
 - `exercise-creating-reading-and-writing.ipynb` — Kaggle Exercise 1: DataFrame/Series creation, read_csv with index_col, to_csv
+- `exercise-indexing-selecting-assigning.ipynb` — Kaggle Exercise 2: .loc/.iloc, fancy indexing with lists, boolean masking, multi-condition filtering with &/| precedence
 
 ## Notes
 - Slicing returns a *view*, not a copy — `arr` and a slice `b = arr[...]` share the same underlying memory.
