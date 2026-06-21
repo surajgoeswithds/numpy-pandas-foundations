@@ -29,7 +29,7 @@ Daily practice and notebooks for learning NumPy and Pandas, part of a structured
 - [x] Exercise 1: Creating, Reading and Writing
 - [x] Exercise 2: Indexing, Selecting & Assigning
 - [x] Exercise 3: Summary Functions and Maps
-- [ ] Exercise 4: Grouping and Sorting
+- [x] Exercise 4: Grouping and Sorting
 - [ ] Exercise 5: Data Types and Missing Values
 - [ ] Exercise 6: Renaming and Combining
 
@@ -48,6 +48,7 @@ Daily practice and notebooks for learning NumPy and Pandas, part of a structured
 - `exercise-creating-reading-and-writing.ipynb` — Kaggle Exercise 1: DataFrame/Series creation, read_csv with index_col, to_csv
 - `exercise-indexing-selecting-assigning.ipynb` — Kaggle Exercise 2: .loc/.iloc, fancy indexing with lists, boolean masking, multi-condition filtering with &/| 
 - `exercise-summary-functions-and-maps.ipynb` — Kaggle Exercise 3: median, unique, value_counts, idxmax, str.contains, apply with row-wise logic, mean-centering
+- `exercise-grouping-and-sorting.ipynb` — Kaggle Exercise 4: groupby, size, agg with multiple functions, sort_values, sort_index, MultiIndex grouping
 
 ## Notes
 - Slicing returns a *view*, not a copy — `arr` and a slice `b = arr[...]` share the same underlying memory.
