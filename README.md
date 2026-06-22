@@ -1,10 +1,10 @@
 # NumPy & Pandas Foundations
 
-Daily practice and notebooks for learning NumPy and Pandas, part of a structured 50-day data science sprint.
+Daily practice and notebooks for learning NumPy and Pandas, part of a structured data science sprint.
 
 ## Progress
 
-### NumPy [Complete ✅]
+### NumPy 
 - [x] Why use NumPy (cache locality, memory layout, vectorization)
 - [x] Creating NumPy Arrays
 - [x] Indexing and Slicing
@@ -22,10 +22,10 @@ Daily practice and notebooks for learning NumPy and Pandas, part of a structured
 - [x] Data Transformation
 - [x] Melt and Pivot
 - [x] Aggregation & Grouping
-- [ ] Merging & Joining Data
-- [ ] Working with CSVs
+- [x] Merging & Joining Data
+- [x] Working with CSVs
 
-### Kaggle Pandas Micro-course [Complete ✅]
+### Kaggle Pandas Micro-course 
 - [x] Exercise 1: Creating, Reading and Writing
 - [x] Exercise 2: Indexing, Selecting & Assigning
 - [x] Exercise 3: Summary Functions and Maps
@@ -48,6 +48,7 @@ Daily practice and notebooks for learning NumPy and Pandas, part of a structured
 - `Data Transformation.ipynb` — sort_values(), reset_index() with inplace/drop, column reordering via df[[col_order]]
 - `Melt and Pivot.ipynb` — pd.melt() for wide-to-long, pivot_table() for long-to-wide, reshaping DataFrames
 - `Aggregation and Grouping.ipynb` — groupby(), agg(), transform(), aggregate functions on grouped data
+- `Merging and Joining.ipynb` — merge(), join(), concat(), inner/outer/left/right joins
 - `exercise-creating-reading-and-writing.ipynb` — Kaggle Exercise 1: DataFrame/Series creation, read_csv with index_col, to_csv
 - `exercise-indexing-selecting-assigning.ipynb` — Kaggle Exercise 2: .loc/.iloc, fancy indexing with lists, boolean masking, multi-condition filtering with &/| 
 - `exercise-summary-functions-and-maps.ipynb` — Kaggle Exercise 3: median, unique, value_counts, idxmax, str.contains, apply with row-wise logic, mean-centering
