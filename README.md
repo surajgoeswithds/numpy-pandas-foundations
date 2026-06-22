@@ -4,7 +4,7 @@ Daily practice and notebooks for learning NumPy and Pandas, part of a structured
 
 ## Progress
 
-### NumPy Complete ✅
+### NumPy [Complete ✅]
 - [x] Why use NumPy (cache locality, memory layout, vectorization)
 - [x] Creating NumPy Arrays
 - [x] Indexing and Slicing
@@ -25,12 +25,12 @@ Daily practice and notebooks for learning NumPy and Pandas, part of a structured
 - [ ] Merging & Joining Data
 - [ ] Working with CSVs
 
-### Kaggle Pandas Micro-course — In progress (1/6 exercises)
+### Kaggle Pandas Micro-course
 - [x] Exercise 1: Creating, Reading and Writing
 - [x] Exercise 2: Indexing, Selecting & Assigning
 - [x] Exercise 3: Summary Functions and Maps
 - [x] Exercise 4: Grouping and Sorting
-- [ ] Exercise 5: Data Types and Missing Values
+- [x] Exercise 5: Data Types and Missing Values
 - [ ] Exercise 6: Renaming and Combining
 
 ## Notebooks
@@ -49,6 +49,7 @@ Daily practice and notebooks for learning NumPy and Pandas, part of a structured
 - `exercise-indexing-selecting-assigning.ipynb` — Kaggle Exercise 2: .loc/.iloc, fancy indexing with lists, boolean masking, multi-condition filtering with &/| 
 - `exercise-summary-functions-and-maps.ipynb` — Kaggle Exercise 3: median, unique, value_counts, idxmax, str.contains, apply with row-wise logic, mean-centering
 - `exercise-grouping-and-sorting.ipynb` — Kaggle Exercise 4: groupby, size, agg with multiple functions, sort_values, sort_index, MultiIndex grouping
+- `exercise-data-types-and-missing-values.ipynb` — Kaggle Exercise 5: dtype inspection, astype() conversion, isnull()/sum() for null detection, fillna(), value_counts(), sort_values()
 
 ## Notes
 - Slicing returns a *view*, not a copy — `arr` and a slice `b = arr[...]` share the same underlying memory.
