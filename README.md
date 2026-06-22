@@ -21,7 +21,7 @@ Daily practice and notebooks for learning NumPy and Pandas, part of a structured
 - [x] Data Cleaning & Preprocessing
 - [x] Data Transformation
 - [x] Melt and Pivot
-- [ ] Aggregation & Grouping
+- [x] Aggregation & Grouping
 - [ ] Merging & Joining Data
 - [ ] Working with CSVs
 
@@ -47,6 +47,7 @@ Daily practice and notebooks for learning NumPy and Pandas, part of a structured
 - `Data Cleaning & Preprocessing.ipynb` — missing data (`isnull`, `dropna`, `fillna`, `ffill`/`bfill`), duplicates (`duplicated`, `drop_duplicates`, subset-based), `.str` methods, dtype fixing (`astype`), `.apply()`/`.map()`/`.replace()` for transformations
 - `Data Transformation.ipynb` — sort_values(), reset_index() with inplace/drop, column reordering via df[[col_order]]
 - `Melt and Pivot.ipynb` — pd.melt() for wide-to-long, pivot_table() for long-to-wide, reshaping DataFrames
+- `Aggregation and Grouping.ipynb` — groupby(), agg(), transform(), aggregate functions on grouped data
 - `exercise-creating-reading-and-writing.ipynb` — Kaggle Exercise 1: DataFrame/Series creation, read_csv with index_col, to_csv
 - `exercise-indexing-selecting-assigning.ipynb` — Kaggle Exercise 2: .loc/.iloc, fancy indexing with lists, boolean masking, multi-condition filtering with &/| 
 - `exercise-summary-functions-and-maps.ipynb` — Kaggle Exercise 3: median, unique, value_counts, idxmax, str.contains, apply with row-wise logic, mean-centering
